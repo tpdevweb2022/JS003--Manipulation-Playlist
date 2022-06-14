@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body>
+    <div class="title_block">TP DEV & SONG</div>
+    <div class="active_song">
+      <p>Placez la chanson avec l'artiste correspondant</p>
+      <h2 id="activeSong">ICI MA CHANSON</h2>
+    </div>
+    <div class="buttons">
+      <button
+        onclick="addSongToArtist(document.getElementById('activeSong').innerHTML, 'goldman')"
+      >
+        JJ Goldman
+      </button>
+      <button
+        onclick="addSongToArtist(document.getElementById('activeSong').innerHTML, 'redHot')"
+      >
+        Red Hot
+      </button>
+      <button
+        onclick="addSongToArtist(document.getElementById('activeSong').innerHTML, 'franklin')"
+      >
+        Aretha Franklin
+      </button>
+      <button
+        onclick="addSongToArtist(document.getElementById('activeSong').innerHTML, 'carlos')"
+      >
+        Carlos
+      </button>
+    </div>
+    <div class="artists">
+      <div class="goldman artist">
+        <h4>JJ Goldman</h4>
+        <ul id="goldmanList"></ul>
+      </div>
+      <div class="redHot artist">
+        <h4>Red Hot</h4>
+        <ul id="redHotList"></ul>
+      </div>
+      <div class="franklin artist">
+        <h4>Aretha Franklin</h4>
+        <ul id="franklinList"></ul>
+      </div>
+      <div class="carlos artist">
+        <h4>Carlos</h4>
+        <ul id="carlosList"></ul>
+      </div>
+    </div>
+  </body>
+</html>

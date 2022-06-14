@@ -1,0 +1,56 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.title_block {
+  background-color: rgb(56, 8, 102);
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.active_song {
+  padding: 2rem;
+  text-align: center;
+}
+
+.active_song p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.active_song h2 {
+  padding: 1rem;
+  color: red;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  padding: 0.7rem 2rem;
+  background-color: rgb(209, 147, 13);
+  color: white;
+  border: 0;
+  border-radius: 7px;
+  margin: 0 2rem;
+}
+
+.artists {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.artists > div {
+  padding: 2rem 0;
+}
+
+.artists ul {
+  list-style: none;
+  margin: 0.75rem 0;
+}
